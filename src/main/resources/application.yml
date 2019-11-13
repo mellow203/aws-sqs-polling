@@ -1,0 +1,11 @@
+aws :
+  access-key: key
+  secret-key: key
+  regions: region
+  sqs:
+    message-name: queue-name
+    api-gate-way: gate-way-name
+
+thread-pool:
+  service-size: 10
+  ep-size: 10
